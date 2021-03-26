@@ -1,0 +1,19 @@
+{
+  "name": "simple-chat-websocket-reactjs",
+  "version": "1.0.0",
+  "description": "### Props:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichlas/simple-chat-websocket-reactjs.git"
+  },
+  "author": "ichlas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ichlas/simple-chat-websocket-reactjs/issues"
+  },
+  "homepage": "https://github.com/ichlas/simple-chat-websocket-reactjs#readme"
+}
