@@ -190,6 +190,9 @@ export default App
 # clone project
 $ git clone https://github.com/ichlas/simple-chat-websocket-reactjs.git
 
+# install yarn (in directory)
+$ yarn install
+
 # serve with hot reload at localhost:3000
 $ yarn start_client
 
