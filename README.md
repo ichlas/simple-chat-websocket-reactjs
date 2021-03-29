@@ -1,4 +1,4 @@
-# Vue Nuxt Scroll Datepicker - Cashbac
+# Simple chat (realtime) with reactjs and websocket
 
 ### Props:
 

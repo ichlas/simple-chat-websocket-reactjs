@@ -1,6 +1,6 @@
 {
   "name": "simple-chat-websocket-reactjs",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "### Props:",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/ichlas/simple-chat-websocket-reactjs/issues"
   },
-  "homepage": "https://github.com/ichlas/simple-chat-websocket-reactjs#readme"
+  "homepage": "https://github.com/ichlas/simple-chat-websocket-reactjs#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.5",
+    "ws": "^7.4.4"
+  },
+  "scripts": {
+    "start_server": "node server.js",
+    "start_client": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
