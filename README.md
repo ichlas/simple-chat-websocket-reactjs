@@ -1,5 +1,19 @@
 # Simple chat (realtime) with reactjs and websocket
 
+
+![test](https://img.shields.io/npm/dt/vue-scroll-datepicker-cashbac.svg?style=flat-square)
+![test](https://img.shields.io/npm/v/vue-scroll-datepicker-cashbac/latest.svg?style=flat-square)
+![test](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)
+
+Pada artikel ini kita akan membuat simple chat mengunakan websocket, nodeJs dan ReactJs
+
+## Demo
+
+See demo [here](https://miichlas.online/demo/simple-chat-websocket-reactjs)
+
+![simple-chat-websocket-reactjs](https://res.cloudinary.com/daihatsu/image/upload/v1617036520/support/ogrslxcf60whgxbhvcxr.gif)
+
+
 ### Props:
 
 | Name                  | Type                            | Default             | Description                                                                                                            |
