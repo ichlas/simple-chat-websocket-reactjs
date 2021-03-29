@@ -9,7 +9,7 @@ From there you can play around and explore and add your own ideas and features.
 
 ## Demo
 
-See demo [here](https://miichlas.online/demo/simple-chat-websocket-reactjs)
+See demo [here](https://www.npmjs.com/package/simple-chat-websocket-reactjs)
 
 ![simple-chat-websocket-reactjs](https://res.cloudinary.com/daihatsu/image/upload/v1617036520/support/ogrslxcf60whgxbhvcxr.gif)
 
