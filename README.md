@@ -1,11 +1,11 @@
 # Simple chat (realtime) with reactjs and websocket
 
-
 ![test](https://img.shields.io/npm/dt/vue-scroll-datepicker-cashbac.svg?style=flat-square)
 ![test](https://img.shields.io/npm/v/vue-scroll-datepicker-cashbac/latest.svg?style=flat-square)
 ![test](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)
 
-Pada artikel ini kita akan membuat simple chat mengunakan websocket, nodeJs dan ReactJs
+In this article we will create a simple chat using websocket, nodeJs and ReactJs.
+From there you can play around and explore and add your own ideas and features.
 
 ## Demo
 
@@ -14,48 +14,21 @@ See demo [here](https://miichlas.online/demo/simple-chat-websocket-reactjs)
 ![simple-chat-websocket-reactjs](https://res.cloudinary.com/daihatsu/image/upload/v1617036520/support/ogrslxcf60whgxbhvcxr.gif)
 
 
-### Props:
+### Backend (Nodejs):
 
-| Name                  | Type                            | Default             | Description                                                                                                            |
-| --------------------- | ------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| v-model, value        | String, Date, DateTime (luxon)  |      yyyy-LL-dd HH:mm:ss               | Value                                                                                                                  |
-| value          | String                          | null | Value                         |
-| max              | String, Date, DateTime (luxon)  | yyyy-LL-dd HH:mm:ss                | Max date                                                                                                               |
-| min              | String, Date, DateTime (luxon)  | yyyy-LL-dd HH:mm:ss                | Min date                                                                                          
-| placeholder          | String                          | null | 
-| inputClass          | String                          | null | 
-| inputStyle          | String                          | null | 
-| themeColor          | String                          | null |
-
-### Events:
-
-| Name                  |
-| --------------------- |
-| close                 |
-| open                  |
-| change-month          |
-| change-year           |
-| change-decade         |
-
-### Methods:
-
-| Name                  | Description           |
-| --------------------- | --------------------- |
-| open                  | Open datetime picker  |
-| close                 | Close datetime picker |
+### Frondend (ReactJs):
 
 ## Development
 
 ```bash
 # install dependencies
-$ yarn install
+$ git clone https://github.com/ichlas/simple-chat-websocket-reactjs.git
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+$ yarn start_client
 
 # build for production and launch server
-$ yarn build
-$ yarn start
+$ yarn start_server
 
 # generate static project
 $ yarn generate
