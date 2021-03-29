@@ -4,7 +4,11 @@
   "description": "### Props:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start_server": "node server.js",
+    "start_client": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -22,12 +26,5 @@
     "react-dom": "^16.5.0",
     "react-scripts": "1.1.5",
     "ws": "^7.4.4"
-  },
-  "scripts": {
-    "start_server": "node server.js",
-    "start_client": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   }
 }
