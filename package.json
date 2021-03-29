@@ -1,6 +1,6 @@
 {
   "name": "simple-chat-websocket-reactjs",
-  "version": "0.0.1",
+  "version": "1.0.3",
   "description": "### Props:",
   "main": "index.js",
   "scripts": {
