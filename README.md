@@ -15,7 +15,21 @@ See demo [here](https://miichlas.online/demo/simple-chat-websocket-reactjs)
 
 
 ### Backend (Nodejs):
+Create a simple WebSocket server that broadcasts all incoming messages to everyone that’s connected. Then we will also need the actualserver.js file. Which is merely the following:
 
+```bash
+const WebSocket = require('ws');
+const wss = new WebSocket.Server({ port: 3030 });
+wss.on('connection', function connection(ws) {
+  ws.on('message', function incoming(data) {
+    wss.clients.forEach(function each(client) {
+      if (client !== ws && client.readyState === WebSocket.OPEN) {
+        client.send(data);
+      }
+    });
+  });
+});
+```
 ### Frondend (ReactJs):
 
 ## Development
