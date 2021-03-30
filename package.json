@@ -1,6 +1,6 @@
 {
   "name": "simple-chat-websocket-reactjs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "### Props: In this article we will create a simple chat using websocket, nodeJs and ReactJs. From there you can play around and explore and add your own ideas and features.",
   "main": "index.js",
   "scripts": {
